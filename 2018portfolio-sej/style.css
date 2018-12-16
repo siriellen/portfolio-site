@@ -1,0 +1,236 @@
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	font-family: 'Cormorant Garamond', serif;
+	color:  #8f9296;
+	font-size: 16px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .24em;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+.home-background{
+	background-image: url(images/home-background-tiny.png);
+	background-color: lavender;
+	height:1722px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.portfolio-background{
+	background-image: url(images/portfolio-background-tiny.png);
+	background-color: lavender;
+	height:1140px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.resume-background{
+	background-color: #ff9980;
+}
+.contact-background{
+	background-image: url(images/contact-background-tiny.png);
+	background-color: lavender;
+	height:1346px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#resume-initials{
+	background-image: url(images/initials-cmyk.png);
+	height:auto;
+	width:auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+}
+.initials-cmyk{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 250px;
+	margin-bottom: 100px;
+}
+.bits-bobs{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 450px;
+	text-align: center;
+}
+.signature-script{
+	display: block;
+	margin-left: auto;
+	margin-right: 57%;
+	margin-bottom: 200px;
+}
+.bg-primary{
+	background-color: #ff9966!important;
+	opacity: .4!important;
+}
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrapper{
+	padding: 20px 20px 20px 20px;
+	margin-right:auto;
+	margin-left: auto;
+	min-width: 425px;
+	max-width: 2550px;
+}
+.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+}
+.nav-item{
+	position: center;
+	margin-top: 3px;
+}
+.nav-font{
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .24em;
+	font-size: 14px;
+}
+nav div ul{
+	display: table;
+	width: 100%;
+	list-style: none;
+}
+nav div ul li{
+	display: table-cell;
+	text-align: center;
+}
+nav div ul li a{
+	display: block;
+}
+nav a{
+	text-decoration: none;
+}
+a.nav-link{
+	font-family: 'Josephin Sans', sans-serif;
+}
+a:link{
+	color: #000033;
+}
+a:visited{
+	color: #344873;
+}
+a:hover{
+	color: #ffffff;
+}
+a:active{
+	color: #000000;
+}
+nav{
+	font-weight: bold;
+	opacity: 20%!important;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+#welcome_note{
+	max-width: 525px;
+	min-width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	line-height: 25px;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 18px;
+}
+h6{
+	position: relative;
+	left: 50%;
+}
+main{
+	display: block;
+	max-width: 2550px;
+	max-height: auto;
+}
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
